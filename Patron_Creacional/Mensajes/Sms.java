@@ -1,4 +1,6 @@
-package Patron_Creacional;
+package Patron_Creacional.Mensajes;
+
+import Patron_Creacional.Notificacion;
 
 public class Sms implements Notificacion {
 

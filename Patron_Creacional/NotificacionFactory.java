@@ -1,5 +1,9 @@
 package Patron_Creacional;
 
+import Patron_Creacional.Mensajes.Email;
+import Patron_Creacional.Mensajes.Push;
+import Patron_Creacional.Mensajes.Sms;
+
 public class NotificacionFactory {
 
     public Notificacion crearNotificacion(String tipo){
