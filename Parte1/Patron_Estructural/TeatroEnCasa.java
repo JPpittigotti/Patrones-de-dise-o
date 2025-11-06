@@ -37,7 +37,7 @@ public class TeatroEnCasa {
         sonido.subirVolumen();
         reproductor.encender();
         reproductor.reproducir(pelicula);
-        System.out.println("\nDisfruta de > " +  pelicula + " < ....");
+        System.out.println("\nDisfruta de > " +  pelicula + " < ....\n");
     }
 
     void apagarTeatro(){

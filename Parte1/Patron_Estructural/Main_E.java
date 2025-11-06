@@ -9,7 +9,7 @@ public class Main_E {
         Scanner sc = new Scanner(System.in);
         TeatroEnCasa teatro = new TeatroEnCasa();
         
-        System.out.println("Que peliculas va a ver?: ");
+        System.out.print("Que peliculas va a ver?: ");
         String pelicula = sc.nextLine();
 
         teatro.verPelicula(pelicula);
